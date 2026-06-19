@@ -449,13 +449,6 @@ Business Value:
 
 ---
 
-# 🧭 Workflow Overview
-
-![Workflow Diagram](workflow-diagram.svg)
-
-This workflow shows the end-to-end process from raw CSV ingestion through Power Query transformation, star schema modeling, DAX calculation, and dashboard delivery.
-
----
 
 # 📺 Dashboard Gallery
 
