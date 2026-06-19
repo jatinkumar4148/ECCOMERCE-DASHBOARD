@@ -139,6 +139,9 @@ Relationship Type:
 
 # 📊 Dashboard 1 – Monthly Sales Analysis
 
+<img width="834" height="479" alt="image" src="https://github.com/user-attachments/assets/ee4c6fb5-8ed5-454a-9952-299638996474" />
+
+
 ## KPIs
 
 ### Revenue
@@ -252,6 +255,9 @@ Business Value:
 ---
 
 # 📊 Dashboard 2 – Customers & Product Insights
+
+<img width="884" height="486" alt="image" src="https://github.com/user-attachments/assets/649dbf0a-8531-4e1a-86c6-22cf50aa5464" />
+
 
 ## KPIs
 
