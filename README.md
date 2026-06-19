@@ -137,99 +137,7 @@ Relationship Type:
 
 ---
 
-# 📊 Dashboard 1 – Customers & Product Insights
-
-## KPIs
-
-### Total Customers
-
-```DAX
-Total Customers =
-DISTINCTCOUNT(customer_dim[customer_key])
-```
-
-### Active Customers
-
-```DAX
-Active Customers =
-DISTINCTCOUNT(fact_table[customer_key])
-```
-
-### Returning Customer Percentage
-
-```DAX
-Returning Customer % =
-DIVIDE(
-    [Returning Customers],
-    [Total Customers]
-)
-```
-
----
-
-## Visual Analysis
-
-### Customer Metrics
-
-- Total Customers: 9K+
-- Active Customers: 9K+
-- Returning Customer Rate Tracking
-
-### Product-wise Performance
-
-Measures:
-
-- Total Revenue
-- Quantity Sold
-- Product Value
-
-Purpose:
-
-- Identify top-performing products
-- Compare product sales contribution
-
-### Customer Order Bucket Analysis
-
-Customer Segmentation:
-
-- 1–29 Orders
-- 30–33 Orders
-- 34–37 Orders
-- 38+ Orders
-
-Business Value:
-
-- Understand customer purchasing frequency
-- Identify loyal customers
-
-### Total Quantity by Year
-
-Analyzes yearly product demand.
-
-Insight:
-
-- 2018 recorded the highest quantity sold.
-
-### Monthly New Customer Trend
-
-Tracks customer acquisition trends.
-
-Business Value:
-
-- Monitor growth and retention patterns.
-
-### Location-wise Total Sales
-
-Ranks locations based on sales performance.
-
-Business Value:
-
-- Identify high-performing markets.
-- Support regional business strategies.
-
----
-
-# 📊 Dashboard 2 – Monthly Sales Analysis
+# 📊 Dashboard 1 – Monthly Sales Analysis
 
 ## KPIs
 
@@ -340,6 +248,98 @@ Examples:
 Business Value:
 
 - Discover high-performing sales regions.
+
+---
+
+# 📊 Dashboard 2 – Customers & Product Insights
+
+## KPIs
+
+### Total Customers
+
+```DAX
+Total Customers =
+DISTINCTCOUNT(customer_dim[customer_key])
+```
+
+### Active Customers
+
+```DAX
+Active Customers =
+DISTINCTCOUNT(fact_table[customer_key])
+```
+
+### Returning Customer Percentage
+
+```DAX
+Returning Customer % =
+DIVIDE(
+    [Returning Customers],
+    [Total Customers]
+)
+```
+
+---
+
+## Visual Analysis
+
+### Customer Metrics
+
+- Total Customers: 9K+
+- Active Customers: 9K+
+- Returning Customer Rate Tracking
+
+### Product-wise Performance
+
+Measures:
+
+- Total Revenue
+- Quantity Sold
+- Product Value
+
+Purpose:
+
+- Identify top-performing products
+- Compare product sales contribution
+
+### Customer Order Bucket Analysis
+
+Customer Segmentation:
+
+- 1–29 Orders
+- 30–33 Orders
+- 34–37 Orders
+- 38+ Orders
+
+Business Value:
+
+- Understand customer purchasing frequency
+- Identify loyal customers
+
+### Total Quantity by Year
+
+Analyzes yearly product demand.
+
+Insight:
+
+- 2018 recorded the highest quantity sold.
+
+### Monthly New Customer Trend
+
+Tracks customer acquisition trends.
+
+Business Value:
+
+- Monitor growth and retention patterns.
+
+### Location-wise Total Sales
+
+Ranks locations based on sales performance.
+
+Business Value:
+
+- Identify high-performing markets.
+- Support regional business strategies.
 
 ---
 
