@@ -137,6 +137,14 @@ Relationship Type:
 
 ---
 
+# 🧭 Workflow Overview
+
+![Workflow Diagram](workflow-diagram.svg)
+
+This workflow shows the end-to-end process from raw CSV ingestion through Power Query transformation, star schema modeling, DAX calculation, and dashboard delivery.
+
+---
+
 # 📊 Dashboard 1 – Monthly Sales Analysis
 
 <img width="834" height="479" alt="image" src="https://github.com/user-attachments/assets/ee4c6fb5-8ed5-454a-9952-299638996474" />
