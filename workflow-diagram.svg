@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <style> .box { fill:#0f172a; stroke:#38bdf8; stroke-width:2; } .title { fill:#f8fafc; font-family:Arial,Helvetica,sans-serif; font-size:20px; font-weight:700; } .text { fill:#e2e8f0; font-family:Arial,Helvetica,sans-serif; font-size:16px; } .small { fill:#94a3b8; font-size:14px; } .arrow { fill:none; stroke:#38bdf8; stroke-width:3; marker-end:url(#arrowhead); } </style>
+  <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#38bdf8"/></marker></defs>
+  <rect x="40" y="40" width="260" height="100" rx="16" class="box"/>
+  <text x="170" y="75" text-anchor="middle" class="title">Raw CSV Data</text>
+  <text x="170" y="100" text-anchor="middle" class="text">customer, item, store, time, transaction</text>
+  <rect x="370" y="40" width="260" height="100" rx="16" class="box"/>
+  <text x="500" y="75" text-anchor="middle" class="title">Power Query</text>
+  <text x="500" y="100" text-anchor="middle" class="text">Clean, transform, merge, model</text>
+  <line x1="300" y1="90" x2="370" y2="90" class="arrow"/>
+  <rect x="700" y="40" width="260" height="100" rx="16" class="box"/>
+  <text x="830" y="75" text-anchor="middle" class="title">Star Schema</text>
+  <text x="830" y="100" text-anchor="middle" class="text">One fact + 5 dimensions</text>
+  <line x1="630" y1="90" x2="700" y2="90" class="arrow"/>
+  <rect x="140" y="220" width="260" height="100" rx="16" class="box"/>
+  <text x="270" y="255" text-anchor="middle" class="title">DAX Measures</text>
+  <text x="270" y="280" text-anchor="middle" class="text">Revenue, Growth, Retention</text>
+  <line x1="830" y1="140" x2="830" y2="220" class="arrow"/>
+  <rect x="500" y="220" width="260" height="100" rx="16" class="box"/>
+  <text x="630" y="255" text-anchor="middle" class="title">Power BI Report</text>
+  <text x="630" y="280" text-anchor="middle" class="text">KPIs, visuals, filters, drill-down</text>
+  <line x1="270" y1="320" x2="270" y2="340" class="arrow"/>
+  <rect x="370" y="340" width="260" height="100" rx="16" class="box"/>
+  <text x="500" y="375" text-anchor="middle" class="title">Business Insights</text>
+  <text x="500" y="400" text-anchor="middle" class="text">Customers, Products, Sales, Regions</text>
+</svg>
